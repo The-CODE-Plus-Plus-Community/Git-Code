@@ -1,11 +1,21 @@
+import { useEffect } from 'react';
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Cards from '../components/index/Cards'
 import About from '../components/index/About'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Banner from '../components/index/Banner'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home(){
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      delay: 0,
+      duration: 600
+    });
+
+  }, []);
   return (
     <div>
       <Head>
@@ -15,6 +25,7 @@ export default function Home(){
       </Head>
       <Banner/>
       <About/> 
+      <Cards />
 </div>
   
   )
