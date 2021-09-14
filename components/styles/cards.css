@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+/* -------------- CARDS --------------------*/
+
+:root{
+    --font-family: 'Roboto', sans-serif;
+}
+
+
+
+.features{
+    color: white;
+    letter-spacing: 0.2rem;
+    font-family: var(--font-family);
+    font-size: 3.5rem;
+}
+
+.main_card{
+    background: linear-gradient(236.67deg, rgba(143,20,124,1) 0%, rgba(5,13,34,1) 46.5%, rgba(5,13,34,1) 100%);
+  }
+  
+  .img{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    float: right;
+    margin: -38px -10px 0px 0px;
+    animation: bounce 3s infinite
+  }
+
+  .rocket{
+    width: 60%;
+    margin: -35px -40px 0px 0px;
+    transform: rotate(17deg);
+  }
+
+  .control{
+    width: 55% ;
+    margin: -35px -20px 0px 0px 
+      
+  }
+
+  .lappy{
+    width: 60% ;
+    margin: -20px -40px 0px 0px
+  }
+
+  
+  .image1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    animation: bounce 3s infinite
+  }
+  
+  .card{
+    position: relative !important;
+    background: linear-gradient(103.9deg, #0D4BC5 -2.54%, #D21BAA 93.59%)!important;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px !important;
+    color: white;
+  }
+  
+  .card-title{
+    font-family: var(--font-family);
+    font-size: 2.125rem !important;
+    z-index: 2;
+  }
+   
+  .card-text{
+      font-size: 1rem !important;
+      font-family: var(--font-family);
+  }
+
+  .fake_card{
+    width: 100%;
+    background-color: yellow;
+    z-index: 2;
+    height: 100%;
+  }
+
+  
+  @media screen and (min-width: 768px){
+    
+    .card-text{
+      font-size: 16px;
+    }
+    
+    .image1{
+      width: 65%;
+      margin: -72px -45px 0px 0px
+      /*object-position: 70px -90px;*/
+    }
+
+    .lappy{
+        margin: -35px -45px 0px 0px
+    }
+
+    .control{
+        width: 55%;
+        margin: -50px -20px 0px 0px
+    }
+
+    
+    .img{
+        width: 45%;
+        margin: -40px -10px 0px 0px
+      }
+    
+      .rocket{
+        width: 60%;
+        margin: -43px -44px 0px 0px 
+      }
+  }
+  
+  @media screen and (min-width: 992px){
+    .card-title{
+        font-size: 3rem !important;
+    }
+
+    .img{
+      width: 30%;
+      margin: -65px -10px 0px 0px
+      /*object-position: 70px -90px;*/
+    }
+  
+    .image1{
+      width: 35%;
+      margin: -70px -10px 0px 0px
+      /*object-position: 70px -90px;*/
+    }
+
+    .lappy{
+        width: 45%;
+    }
+
+    .rocket{
+        width: 40%;
+        margin: -55px -40px 0px 0px
+    }
+    .control{
+        margin: -58px -20px 0px 0px;
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  /*----------------- END OF CARDS -------------*/
