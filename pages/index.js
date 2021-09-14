@@ -7,7 +7,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Banner from '../components/index/Banner'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import Subscription from '../components/index/Subscription'
 
 
 export default function Home(){
@@ -31,6 +31,7 @@ export default function Home(){
       <Banner/>
       <About/> 
       <Cards />
+      <Subscription/>
       <Faq/>
 </div>
   
