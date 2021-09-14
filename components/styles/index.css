@@ -262,3 +262,24 @@ animation-duration: 20s;
     }
 
 }
+
+/* faq */
+
+body {
+    color: #6a6c6f;
+    background-color: #f1f3f6;
+    margin-top:30px;
+  }
+  
+  .container-fluid-1 {
+    /* max-width: 960px; */
+    background: linear-gradient(198deg, rgba(143,20,124,1) 0%, rgba(5,13,34,1) 33%, rgba(5,13,34,1) 100%);;
+  }
+  .accordion{
+    padding: 12% 0;
+  }
+  
+  h2{
+    color: #fff;
+  }
+  
