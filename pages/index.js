@@ -8,6 +8,7 @@ import Banner from '../components/index/Banner'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Subscription from '../components/index/Subscription'
+import Stats from '../components/index/Stats';
 
 
 export default function Home(){
@@ -30,6 +31,7 @@ export default function Home(){
       </Head>
       <Banner/>
       <About/> 
+      <Stats/>
       <Cards />
       <Subscription/>
       <Faq/>
