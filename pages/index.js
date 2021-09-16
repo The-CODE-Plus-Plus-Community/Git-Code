@@ -9,6 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Subscription from '../components/index/Subscription'
 import Stats from '../components/index/Stats';
+import Footer from "../components/index/Footer";
 
 
 export default function Home(){
