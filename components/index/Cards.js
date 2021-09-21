@@ -4,7 +4,7 @@ function Cards() {
     return (
         <div>
             <div className="container-fluid py-4 main_card">
-                <h1 className="text-center mb-5 features">FE<span style={{ color: "red" }}>AT</span>URES</h1>
+                <p className="text-center mb-5 features mt-5">FEA<span style={{ color: "#D21BAA"}}>TU</span>RES</p>
 
 
                 <div className="row align-items-center g-5 px-5 py-5 mx-lg-5" >

@@ -36,6 +36,7 @@ export default function Home(){
       <Cards />
       <Subscription/>
       <Faq/>
+      <Footer />
 </div>
   
   )
