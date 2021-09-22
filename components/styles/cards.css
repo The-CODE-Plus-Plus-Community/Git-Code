@@ -16,7 +16,8 @@
 }
 
 .main_card{
-    background: linear-gradient(236.67deg, rgba(143,20,124,1) 0%, rgba(5,13,34,1) 46.5%, rgba(5,13,34,1) 100%);
+    /*background: linear-gradient(236.67deg, rgba(143,20,124,1) 0%, rgba(5,13,34,1) 46.5%, rgba(5,13,34,1) 100%);*/
+    background: rgba(5,13,34,1);
   }
   
   .img{

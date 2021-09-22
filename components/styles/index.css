@@ -2,13 +2,14 @@
 
 /* ------------------about us----------- */
 #maindiv{
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: rgb(143,20,124);
-    background-image: linear-gradient(333deg, rgba(143,20,124,1) 0%, rgba(5,13,34,1) 33%, rgba(5,13,34,1) 100%);
+    /*background-image: linear-gradient(333deg, rgba(143,20,124,1) 0%, rgba(5,13,34,1) 33%, rgba(5,13,34,1) 100%);*/
+    background: rgba(5,13,34,1);
 }
 .abtcarddiv{
     width: 100%; display: flex;align-items: flex-end;justify-content: flex-end;
@@ -23,6 +24,7 @@
     margin-bottom: 40px;
 }
 #abtusdiv{
+    justify-content: center;
     padding: 30px 40px;
     display: flex;
     flex-direction: column;
@@ -274,10 +276,11 @@ body {
   
   .container-fluid-1 {
     /* max-width: 960px; */
-    background: linear-gradient(198deg, rgba(143,20,124,1) 0%, rgba(5,13,34,1) 33%, rgba(5,13,34,1) 100%);;
+    background: linear-gradient(332deg, rgba(143,20,124,1) 0%, rgba(5,13,34,1) 50%, rgba(5,13,34,1) 100%);
+    padding-top: 2rem;
   }
   .accordion{
-    padding: 12% 0;
+    padding: 5% 0;
   }
   
   h2{
@@ -317,7 +320,8 @@ h2{
 .subscribe-intro{
 	position:relative;
 	padding:50px 0px 30px;
-	background: linear-gradient(159deg, rgba(142,20,123,1) 0%, rgba(5,13,34,1) 54%, rgba(5,13,34,1) 100%);
+	/*background: linear-gradient(275deg, rgba(142,20,123,1) 0%, rgba(5,13,34,1) 54%, rgba(5,13,34,1) 100%);*/
+    background: rgba(5,13,34,1);
 	color:#ffffff;
     
 }
@@ -363,11 +367,16 @@ h2{
 	font-weight:700;
 	text-transform:uppercase;
 	background:none;
-	color:#ffffff !important;
+	color:#ffffff;
 	border:2px solid #ffffff !important;
 	border-radius:3px;
     margin-top: 15px;
 	justify-content: flex-end;
+}
+
+.btn-style-one:hover{
+    color: #050D22;
+    background: #ffffff;
 }
 
 .row-clearfix{
@@ -392,7 +401,8 @@ h2{
 	justify-content: space-around;
 	align-items: center;
 	padding: 25px 0px;
-	background: linear-gradient(270deg, rgba(143,20,124,1) 3%, rgba(5,13,34,1) 54%, rgba(5,13,34,1) 100%);
+	/*background: linear-gradient(270deg, rgba(143,20,124,1) 3%, rgba(5,13,34,1) 54%, rgba(5,13,34,1) 100%);*/
+    background: rgba(5,13,34,1);
     
 }
 .flex-item {
@@ -456,33 +466,18 @@ h2{
 
 /*  Footer Section */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: row;
-    background: #222;
-}
 
 footer{
     position: relative;
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background: #111;
+    background: #160A2B;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.container{
+footer .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -494,22 +489,18 @@ footer{
     flex-direction: column;
 }
 
-.social{
-    margin-right: 30px;
-}
-
 .abt_soc{
     width: 35%;
 }
 
- h2{
+.sec h2{
     position: relative;
     color: #fff;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
- h2:before{
+.sec h2:before{
     content: '';
     position: absolute;
     bottom: -5px;
@@ -522,28 +513,6 @@ footer{
 footer p{
     color: rgb(209, 202, 202);
     text-align: justify;
-}
-
-.social{
-    margin-top: 20px;
-    display: flex;
-}
-
-.social li{
-    list-style: none;
-}
-
-.sh{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: #222;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    text-decoration: none;
-    border-radius: 4px;
 }
 
 .social .sh:hover{
@@ -563,14 +532,14 @@ footer p{
     list-style: none;
 }
 
-.quicklinks a{
+.quicklinks li{
     color: #999;
     text-decoration: none;
-    margin-bottom: 10px;
-    display: inline-block;
+    margin-bottom: 5px;
 }
 
-.quicklinks a:hover{
+.quicklinks li:hover{
+    cursor: pointer;
     color: #fff;
 }
 
@@ -588,12 +557,6 @@ footer p{
     margin-bottom: 16px;
 }
 
-.info span:nth-child(1){
-    color: #fff;
-    font-size: 20px;
-    margin-right: 10px;
-}
-
 .info span{
     color: #999;
 }
@@ -609,7 +572,7 @@ footer p{
 
 .copyright{
     width: 100%;
-    padding:50px 100px;
+    padding:50px 100px 0px 100px;
     color: #999;
 }
 

@@ -4,9 +4,10 @@ function Faq() {
     return (
         <div className="container-fluid-1">
         <div className="container">
-  <h2>Frequently Asked Questions (FAQs) </h2>
+  
   <div className="row">
-    <div className="col-lg-7 col-md-12">
+    <div className="col-lg-7 col-md-12" style={{paddingTop: '60px'}}>
+    <h2>Frequently Asked Questions (FAQs) </h2>
     
 <div className="accordion" id="accordionExample">
   <div className="accordion-item">
@@ -55,7 +56,7 @@ function Faq() {
 </div>
 </div>
 <div className="col-lg-5 col-md-12">
-  <img className="image" src="/img/faq.png" height="450px" width="550px" alt=""/>
+  <img className="img-fluid" src="/img/faq.png" height="450px" width="550px" alt=""/>
 </div>
   </div>
 </div>

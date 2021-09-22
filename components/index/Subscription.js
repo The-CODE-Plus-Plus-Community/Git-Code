@@ -12,8 +12,8 @@ export default function Subscription() {
                 </div>
                 {/* <!--Column--> */}
                 <div className="column col-md-3 col-sm-12 col-xs-12">
-                    <div className="text-right padd-top-20">
-                        <a href="#" className="theme-btn btn-style-one">Subscribe Now</a>
+                    <div className="text-right padd-top-20 px-5 mt-4 mt-md-0 text-center">
+                        <p className="theme-btn btn-style-one" style={{cursor: 'pointer'}}>Subscribe Now</p>
                     </div>
                 </div>
             </div>
