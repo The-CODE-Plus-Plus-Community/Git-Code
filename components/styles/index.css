@@ -207,6 +207,16 @@ color: rgba(194,194,194,0.52);
   top: -6%;
   
 }
+.img1,
+.img2,
+.img3{
+    width: 100px;
+    height: 100px;
+}
+.img4{
+    width: 600px;
+    height: 600px;
+}
 .img1{
     position: relative;
     bottom: -20%;
@@ -241,6 +251,84 @@ animation-duration: 20s;
 .main-picture{
     padding: 15px;
     justify-content: center;
+}
+@media screen and (max-width: 520px) {
+  .main-picture{
+      align-items: center;
+      justify-content: center;
+      padding-right: 25px;
+  }  
+  .img1,
+.img2,
+.img3{
+    width: 80px;
+    height: 80px;
+}
+.img4{
+    width: 450px;
+    height: 450px;
+    /* margin-right: 45px; */
+    position: relative;
+    right: -2%;
+}
+.main-content h2{
+    font-size: 3rem;
+}
+
+}
+@media screen and (max-width: 460px) {
+    .img1,
+.img2,
+.img3{
+    width: 70px;
+    height: 70px;
+}
+    .img1{
+        position: relative;
+        right: -10%;
+       
+    }
+    .img2{
+        position: relative;
+       right: -20%;
+        
+    }
+    .img3{
+        position: relative;
+        right: -30%;
+        
+    }
+    .main-content h2{
+        font-size: 2.5rem;
+        letter-spacing: 1.5px;
+    }
+    
+}
+@media screen and (max-width: 423px) {
+    .btn1,.btn2{
+        font-size: 1.2rem !important;
+        padding: 7px 20px;
+        margin: 15px 25px 15px 0;
+        font-weight: 700;
+        /* width: 171px;
+        height: 50px; */
+    }
+    .main-content h4{
+        font-size: 1.8rem;
+     }
+     .main-content p{
+         font-size: 1.2rem;
+     }
+}
+@media screen and (max-width: 370px){
+    .btn1,.btn2{
+        font-size: 1.2rem !important;
+        padding: 7px 20px;
+        margin: 15px 20px 15px 0;
+        font-weight: 700;
+        /* width: 171px;
+        height: 50px; */
+    }
 }
 @keyframes example1 {
     0%{
