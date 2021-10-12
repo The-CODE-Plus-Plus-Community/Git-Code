@@ -61,7 +61,7 @@
     align-items: flex-end;
     justify-content: flex-end;
     height: 75%;
-    background: grey;
+    background-image: linear-gradient(103.9deg, #0D4BC5 -2.54%, #D21BAA 93.59%);
     z-index: 9;
     position: absolute;
     bottom: 0;
@@ -73,7 +73,7 @@
     font-weight: 500;
 }
 #h22{
-    padding: 4px; width: 30%; height: 10px; background-color: grey;margin-left: 15px;border-radius: 10px;
+    padding: 4px; width: 30%; height: 10px; background-image:linear-gradient(103.9deg, #0D4BC5 -2.54%, #D21BAA 93.59%);margin-left: 15px;border-radius: 10px;
     display: none;
 }
 .finalh2{
@@ -81,7 +81,7 @@
     margin: 40px 0px 30px;
 }
 #h21{
-    padding: 4px; width: 30%; height: 10px; background-color: grey;margin-right: 20px;border-radius: 10px;
+    padding: 4px; width: 30%; height: 10px; background-image: linear-gradient(103.9deg, #0D4BC5 -2.54%, #D21BAA 93.59%);margin-right: 20px;border-radius: 10px;
     display: inline-block;
 }
 @media all and (max-width:767px){
@@ -121,10 +121,10 @@
 }
 .h1div h1{
     font-size: 50px;
-    color: rgba(143,20,124,1);
+    color: white;
 }
 .abtustit{
-    color: grey;
+    color: white;
 }
 .abtustxt p{
     color: white;
