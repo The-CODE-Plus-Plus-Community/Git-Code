@@ -8,15 +8,15 @@ function About() {
                 <div className="container-fluid">
                     <div className="row justify-content-md-center flex-md-row flex-column-reverse">
                         <div className="col-md-4">
-                            <div className="abtcard">
+                            <div data-aos="fade-right" className="abtcard">
                             <AboutCard number="1" para="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
                             </div>
                             <div className="abtcarddiv">
-                                <div className="abtcard1">
+                                <div data-aos="fade-right" className="abtcard1">
                                 <AboutCard number="2" para="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
                                 </div>
                             </div>
-                            <div className="abtcard">
+                            <div data-aos="fade-right" className="abtcard">
                             <AboutCard number="3" para="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
                             </div>
                         </div>
