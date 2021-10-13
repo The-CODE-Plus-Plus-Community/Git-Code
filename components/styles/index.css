@@ -411,14 +411,6 @@ input,button,select,textarea{
 	font-family: 'Roboto', sans-serif;
 }
 
-
-a{
-	text-decoration:none;
-	cursor:pointer;
-	color:#eb5310;
-}
-
-
 h2{
     position:relative;
 	font-family: 'Roboto', sans-serif;
@@ -427,13 +419,18 @@ h2{
 	background:none;
 	line-height:1.4em;
     
+    
 }
+
+
+
 
 /* 
 	Subscribe Intro
 */
 
 .subscribe-intro{
+    height: 30vh;
 	position:relative;
 	padding:50px 0px 30px;
 	/*background: linear-gradient(275deg, rgba(142,20,123,1) 0%, rgba(5,13,34,1) 54%, rgba(5,13,34,1) 100%);*/
@@ -455,10 +452,10 @@ h2{
 }
 
 .subscribe-intro .auto-container{
-	position:relative;
-	z-index:1;	
+	/* position:relative; */
+	/* z-index:1;	 */
+    justify-content: space-around;
 }
-
 .subscribe-intro .row{
 	margin-bottom:20px;
 	font-size:18px;
@@ -497,8 +494,8 @@ h2{
 
 .row-clearfix{
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: space-around;
+	
 }
 
 /* ---------------------Stats-------------------- */
@@ -532,23 +529,23 @@ h2{
   
         
 }
-	a {
-			position: absolute;		
-			left: 0;
-			right: 0;
-			bottom: 0;
-			width: 100%;
-			height: 100%;
-			display: flex;
-			justify-content: center;
-			align-items:center;
-			text-decoration: none;
-			color: #fff;
-			font-weight: Bold;
-			
-			border-radius: 0px;
-			font-family: 'Roboto', sans-serif; 
-			font-size: 1rem;
+a {
+    position: absolute;		
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: Bold;
+    
+    border-radius: 0px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1rem;
 
 			
 		}
@@ -558,6 +555,7 @@ h2{
 	background-position: bottom;
 	background-size: 320px;
     border: 3px solid white;
+    box-shadow: 10px 10px rgba(194,194,194,0.22);
 }
 
 .bg-two {
@@ -565,6 +563,7 @@ h2{
 	border: 3px solid white;
 	background-position: center;
 	background-size: 320px;
+    box-shadow: 10px 10px rgba(194,194,194,0.22);
 }
 
 .bg-three {
@@ -572,6 +571,7 @@ h2{
     border: 3px solid white;
 	background-position: center;
 	background-size: 320px;
+    box-shadow: 10px 10px rgba(194,194,194,0.22);
 }
 
 .text{
