@@ -8,7 +8,7 @@ export default function Subscription() {
                 {/* <!--Column--> */}
                 <div className="column col-md-9 col-sm-12 col-xs-12">
                     <h2>Email Subscription</h2>
-                    Be the first to get notified on upcoming events, scholarship or any news latest updates.
+                    <p>Be the first to get notified on upcoming events, scholarship or any news latest updates.</p>
                 </div>
                 {/* <!--Column--> */}
                 <div className="column col-md-3 col-sm-12 col-xs-12">

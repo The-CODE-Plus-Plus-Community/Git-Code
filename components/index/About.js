@@ -7,7 +7,7 @@ function About() {
             <div id="maindiv">
                 <div className="container-fluid">
                     <div className="row justify-content-md-center flex-md-row flex-column-reverse">
-                        <div className="col-md-4">
+                        <div className="col-md-5 col-lg-5">
                             <div data-aos="fade-right" className="abtcard">
                             <AboutCard number="1" para="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
                             </div>
@@ -28,10 +28,9 @@ function About() {
                                     <h1 id="h22" className="mt-1"></h1>
                                 </div>
                                 <h2 className="finalh2">We provide the best Resources <span className="OStitle">for Open Source</span></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ut tenetur consequatur. Aliquid, eveniet
+                                <p className="pcontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ut tenetur consequatur. Aliquid, eveniet
                                     provident. Molestias, commodi, aut adipisci a optio minus, ea alias odio harum quidem in impedit et.
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ut tenetur consequatur. Aliquid, eveniet
-                                    provident. Molestias, commodi, aut adipisci a optio minus, ea alias odio harum quidem in impedit et.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ut tenetur consequatur.
                                 </p>
                             </div>
                         </div>
