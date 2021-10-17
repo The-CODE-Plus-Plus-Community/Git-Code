@@ -19,7 +19,7 @@ function Footer() {
                     <li>About us</li>
                     <li>Features</li>
                     <li>Subscribe</li>
-                    <li>FAQ's</li>
+                    <li>FAQ`&apos;`s</li>
                 </ul>
             </div>
 
